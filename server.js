@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const http = require('http');
 const path = require('path');
-const port = 8188;
+const port = 8189;
 // Use the whole root as static files to be able to serve the html file and
 // the build folder
 app.use(express.static(path.join(__dirname, '/')));
